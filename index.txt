@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedino | دانلود نرم افزار</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="home.css">
+    <!-- فونت وزیر -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- آیکون‌ها -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- هدر -->
+    <header class="header">َ
+
+        <div class="logo">
+            <h1>Pedino</h1>
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#">خانه</a></li>
+               <li><a href="windows.html">ویندوز</a></li>
+                <li><a href="#">اندروید</a></li>
+                <li><a href="#">بازی</a></li>
+           
+                <li><a href="#">تماس با ما</a></li>
+            </ul>
+        </nav>
+
+        <div class="search-box">
+            <input type="text" placeholder="جستجوی نرم افزار...">
+            <button>
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+
+    </header>
+
+    <!-- بخش ویژه -->
+    <section class="hero">
+
+        <div class="hero-box">
+            <img src="images/windows.jpg" alt="">
+            <div class="hero-text">
+                <h2>دانلود Windows 11</h2>
+                <p>جدیدترین نسخه ویندوز با لینک مستقیم</p>
+            </div>
+        </div>
+
+        <div class="hero-box">
+            <img src="images/photoshop.jpg" alt="">
+            <div class="hero-text">
+                <h2>Adobe Photoshop</h2>
+                <p>نسخه کامل فتوشاپ</p>
+            </div>
+        </div>
+
+        <div class="hero-box">
+            <img src="images/vlc.jpg" alt="">
+            <div class="hero-text">
+                <h2>VLC Player</h2>
+                <p>پخش کننده قدرتمند ویدیو</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- شروع محتوا -->
+    <main class="container">
+
+        <!-- سایدبار -->
+        <aside class="sidebar">
+
+            <div class="widget">
+                <h3>دسته بندی ها</h3>
+                <ul>
+                    <li>نرم افزار ویندوز</li>
+                    <li>اندروید</li>
+                    <li>بازی</li>
+
+                </ul>
+            </div>
+
+        </aside>
+
+        <!-- مطالب -->
+        <section class="content">

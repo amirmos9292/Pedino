@@ -1,0 +1,67 @@
+/* ===========================
+   صفحه نرم افزارهای ویندوز
+=========================== */
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.container h2 {
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 25px;
+    border-right: 5px solid #2b7cff;
+    padding-right: 12px;
+}
+
+.post-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #fff;
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,.12);
+}
+
+.post-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.post-card h3 {
+    margin: 0 0 10px;
+    font-size: 22px;
+    color: #222;
+}
+
+.post-card p {
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.post-card a {
+    display: inline-block;
+    background: #2b7cff;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.post-card a:hover {
+    background: #0056d6;
+}
